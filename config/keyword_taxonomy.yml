@@ -1,0 +1,44 @@
+version: 1
+updated: 2026-03-11
+
+themes:
+  foundation_models:
+    - transformer
+    - attention
+    - llm
+    - large language model
+    - gpt
+    - bert
+    - t5
+  retrieval_knowledge:
+    - rag
+    - retrieval-augmented
+    - vector database
+    - embedding
+    - semantic search
+  agentic_systems:
+    - agent
+    - tool use
+    - planning
+    - function calling
+    - workflow automation
+  multimodal:
+    - multimodal
+    - vision-language
+    - vlm
+    - image-text
+    - audio-text
+  efficiency_infra:
+    - quantization
+    - distillation
+    - inference optimization
+    - low-rank adaptation
+    - lora
+    - serving
+  safety_governance:
+    - alignment
+    - safety
+    - red teaming
+    - interpretability
+    - hallucination
+    - robustness
