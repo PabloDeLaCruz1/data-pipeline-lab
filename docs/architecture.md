@@ -2,7 +2,7 @@
 
 ## Flow
 
-Source (API/CSV) -> Ingestion (Python) -> Bronze (raw tables) -> dbt transforms -> Silver/Gold -> Dashboard
+Source (arXiv API) -> Ingestion (Python) -> Bronze (raw papers) -> dbt transforms -> Silver/Gold -> API -> Dashboard
 
 ## Layers
 
@@ -14,4 +14,12 @@ Source (API/CSV) -> Ingestion (Python) -> Bronze (raw tables) -> dbt transforms 
 
 - Orchestration: Prefect flow for full pipeline run
 - Quality: dbt tests + custom checks in `quality/`
-- Runbook: `docs/runbook.md` (next)
+- Runbook: `docs/runbook.md`
+
+## Related Docs
+
+- `docs/system-design.md`
+- `docs/data-model.md`
+- `docs/devops.md`
+- `docs/trend-scoring.md`
+- `docs/adr/`
